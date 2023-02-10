@@ -69,5 +69,41 @@ main > * {
 }
 
 /* media queries */
+@media (max-width:768px){
 
+  body {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+
+
+  header{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column ;
+    align-content: flex-start;
+    margin-bottom: 1em;
+    align-items: normal;
+  }
+
+  header h1{
+    margin-bottom:1em;
+
+  }
+
+  h2{
+    margin-left: 0;
+  }
+  
+  .airplane-list-container{
+    margin-left: 0;
+    margin-right:0;
+  }
+  .airplane-card{
+    width:100%
+  }
+
+  
+}
 /* YOUR CODE HERE */
